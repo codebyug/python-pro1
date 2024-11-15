@@ -255,20 +255,3 @@ plt.title('Distribution of Room Types with Unusually High Minimum Nights')
 plt.savefig('count_plot5.png')
 plt.show()
 
-# # # 6. Availability and Reviews
-# # # What is the average availability (days per year) of listings? Are there patterns in high or low availability listings?
-# # # How many reviews per month do listings generally receive? Which neighborhoods or room types tend to have higher review rates?
-# # # What is the distribution of the number of reviews? Do certain types of listings receive more reviews than others?
-# # # 7. Relationships Between Features
-# # # Is there a correlation between price and the number of reviews? Does high price impact the number of reviews?
-# # # Is there a relationship between availability and price? Are highly available listings generally more or less expensive?
-# # # How does the number of bedrooms/beds/baths relate to price?
-# # # Are there any patterns or trends in room type, minimum nights, or availability based on host activity or rating?
-# # # 8. Time-based Analysis (if date data available)
-# # # How have prices changed over time (e.g., by month or year, if date data is available)?
-# # # How have review patterns changed over time (e.g., number of reviews per month)?
-# # # Do different neighborhoods or room types exhibit seasonal patterns in availability or price?
-# # # 9. Unique Features of Listings
-# # # What proportion of listings have licenses, and do licensed listings exhibit differences in price or availability?
-# # # Do listings with higher ratings have distinct characteristics (e.g., room type, location, price)?
-# # # Are there any unique or standout listings based on combination criteria (e.g., very high availability, low minimum nights, high reviews)?
