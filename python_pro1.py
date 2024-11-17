@@ -123,6 +123,7 @@ sns.countplot(data=df, x='neighbourhood_group', order=new_york['neighbourhood_gr
 plt.title('Distribution of Listings by Neighborhood Group')
 plt.savefig('count_plot2.png')
 plt.show()
+![image alt](https://github.com/codebyug/python-pro1/blob/b1620c90632430c4d21e76b9698ac8584c672630/count_plot2.png)
 
 # What are the average prices for listings across different neighborhoods and neighborhood groups?
 # Average prices by neighborhood
