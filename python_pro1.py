@@ -124,7 +124,6 @@ plt.title('Distribution of Listings by Neighborhood Group')
 plt.savefig('count_plot2.png')
 plt.show()
 
-![image alt](https://github.com/codebyug/python-pro1/blob/b1620c90632430c4d21e76b9698ac8584c672630/count_plot2.png)
 
 # What are the average prices for listings across different neighborhoods and neighborhood groups?
 # Average prices by neighborhood
@@ -179,15 +178,7 @@ plt.xlabel('Neighborhood')
 plt.ylabel('Average Price')
 plt.savefig('avg_price_by_room_type_across_neighborhoods_barplot.png')
 plt.show()
-# # Price variation by room type across neighborhoods (boxplot)
-# plt.figure(figsize=(12, 6))  # Optional: Adjust figure size for readability
-# sns.boxplot(data=df, x='neighbourhood', y='price', hue='room_type', showfliers=False)
-# plt.xticks(rotation=90)  # Rotate x-axis labels for better visibility
-# plt.title('Price Variation by Room Type Across Neighborhoods')
-# plt.xlabel('Neighborhood')
-# plt.ylabel('Price')
-# plt.savefig('box_plot22.png')
-# plt.show()
+
 
 
 # Are there any outliers in prices? Which room types or neighborhoods have the highest/lowest prices?
